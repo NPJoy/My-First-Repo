@@ -57,9 +57,19 @@ nav a {
   letter-spacing: 1px;
 }
 
+nav a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: color 0.2s ease, letter-spacing 0.2s ease;
+}
+
 nav a:hover {
   color: #a78bfa;
+  letter-spacing: 3px;
 }
+
 /* Hero Section */
 .hero {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
@@ -97,6 +107,12 @@ nav a:hover {
   border-radius: 10px;
   padding: 30px;
   width: 340px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 212, 255, 0.2);
 }
 
 .card h3 {
