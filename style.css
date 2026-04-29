@@ -1,8 +1,8 @@
 /* General Page Styles */
 body {
-  background-color: #46388c;
-  color: #eaeaea;
-  font-family: 'Noto Serif', serif;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  font-family: Georgia, serif;
   max-width: 800px;
   margin: 60px auto;
   padding: 0 20px;
@@ -20,12 +20,19 @@ h1 {
 /* Section Headings */
 h2 {
   font-size: 24px;
-  color: #232b3b;
+  color: #a78bfa;
   margin-top: 40px;
 }
 
 /* Paragraph Text */
 p {
   font-size: 16px;
-  color: #eaeaea;
+  color: #f0f0f0;
+}
+
+/* Bullet Points */
+ul {
+  color: #f0f0f0;
+  font-size: 16px;
+  line-height: 2;
 }
