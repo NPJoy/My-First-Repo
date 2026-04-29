@@ -221,3 +221,71 @@ nav a:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(0, 212, 255, 0.2);
 }
+/* ── Mobile Responsiveness ── */
+@media (max-width: 768px) {
+
+  /* Body */
+  body {
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 60px 20px 30px 20px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .tagline {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  /* Navigation */
+  nav {
+    gap: 15px;
+    padding: 12px 20px;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  /* Project Cards */
+  .card {
+    width: 100%;
+  }
+
+  .projects-container {
+    padding: 20px 0;
+  }
+
+  /* Contact */
+  .contact {
+    padding: 40px 20px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-links a {
+    width: 100%;
+    text-align: center;
+  }
+
+}
