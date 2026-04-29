@@ -36,3 +36,27 @@ ul {
   font-size: 16px;
   line-height: 2;
 }
+/* Navigation Bar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 15px 30px;
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid #00d4ff;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: #00d4ff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #a78bfa;
+}
