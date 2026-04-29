@@ -166,3 +166,58 @@ nav a:hover {
   background-color: #00d4ff;
   color: #0f0f0f;
 }
+/* Contact Section */
+.contact {
+  margin-top: 80px;
+  padding: 60px 40px;
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #a78bfa;
+  margin-bottom: 60px;
+}
+
+.contact h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #00d4ff;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  color: #f0f0f0;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+/* Contact Buttons */
+.contact-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-links a {
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  transition: transform 0.2s ease, 
+  box-shadow 0.2s ease;
+}
+
+.contact-links a:first-child {
+  background-color: #00d4ff;
+  color: #0f0f0f;
+}
+
+.contact-links a:last-child {
+  border: 1px solid #a78bfa;
+  color: #a78bfa;
+}
+
+.contact-links a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.2);
+}
